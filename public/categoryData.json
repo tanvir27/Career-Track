@@ -1,0 +1,26 @@
+[
+  {
+    "_id": 1,
+    "icon": "./assets/Icons/accounts 1.png",
+    "title": "Accountant",
+    "availability": "350 jobs available"
+  },
+  {
+    "_id": 2,
+    "icon": "./assets/Icons/business 1.png",
+    "title": "Creative Designer",
+    "availability": "150 jobs available"
+  },
+  {
+    "_id": 3,
+    "icon": "./assets/Icons/chip 1.png",
+    "title": "Marketing  Specialist",
+    "availability": "50 jobs available"
+  },
+  {
+    "_id": 4,
+    "icon": "./assets/Icons/social-media 1.png",
+    "title": "Engineering Job",
+    "availability": "200 jobs available"
+  }
+]

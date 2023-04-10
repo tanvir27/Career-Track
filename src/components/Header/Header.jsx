@@ -16,12 +16,15 @@ const Header = () => {
           <Navbar.Collapse>
             <Nav className="mx-auto fs-5 gap-4">
               <Link to="/" className="nav-link">
+                Home
+              </Link>
+              <Link to="/statistics" className="nav-link">
                 Statistics
               </Link>
-              <Link to="/" className="nav-link">
+              <Link to="/applied" className="nav-link">
                 Applied Jobs
               </Link>
-              <Link to="/" className="nav-link">
+              <Link to="/blog" className="nav-link">
                 Blog
               </Link>
             </Nav>
