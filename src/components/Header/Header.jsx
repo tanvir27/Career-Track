@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="common-styles">
+    <div className="common-styles py-2">
       <Navbar open={open} expand="lg">
         <Container>
           <Link to="/" className="navbar-brand fw-bold fs-3">

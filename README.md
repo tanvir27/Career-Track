@@ -11,3 +11,7 @@
 ### 6. banner section modified
 
 ### 7. json file edited and change image location
+
+### 8. pie chart implemented in statistical path
+
+### 9. pic chart fill color create for every assignment marks
