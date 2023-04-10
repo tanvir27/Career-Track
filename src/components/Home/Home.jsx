@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-// import bannerImg from "../../../public/assets/All Images/P3OLGJ1 copy 1.png";
+
  import bannerImg from "../../../public/All Images/P3OLGJ1 copy 1.png";
 import "./Home.css";
 import { Link } from "react-router-dom";
