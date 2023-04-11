@@ -15,3 +15,5 @@
 ### 8. pie chart implemented in statistical path
 
 ### 9. pic chart fill color create for every assignment marks
+
+### 10. blog page implemented by answering questions

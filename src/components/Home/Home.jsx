@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
- import bannerImg from "../../../public/All Images/P3OLGJ1 copy 1.png";
+import bannerImg from "../../assets/P3OLGJ1.png";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import CategoryList from "../CategoryList/CategoryList";
@@ -47,7 +47,7 @@ const Home = () => {
 
       <div className="container my-5 text-center">
         <h1 className="fw-bold">Job Category List</h1>
-        <p>
+        <p className="text-success">
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </p>
@@ -58,6 +58,61 @@ const Home = () => {
           ))}
         </div>
       </div>
+
+      <div className="container featured-job my-5">
+        <div className="text-center">
+          <h1 className="fw-bold">Featured Jobs</h1>
+          <p className="text-success">
+            Explore thousands of job opportunities with all the information you
+            need. Its your future
+          </p>
+        </div>
+        <div className="row row-cols-1 row-cols-md-2 g-2 mt-2">
+          <div class="col rounded p-3">
+            <div class="card">
+              <div className="p-4">
+                <div>
+                  <img
+                    className="img-fluid"
+                    src="../../../public/All Images/google-1-1 1.png"
+                    alt=""
+                  />
+                </div>
+                <h3>Technical Database Engineer</h3>
+                <p className="">Google LLC</p>
+                <div className="d-flex gap-3">
+                  <button type="button" class="btn btn-outline-primary">
+                    Remote
+                  </button>
+                  <button type="button" class="btn btn-outline-secondary">
+                    Onsite
+                  </button>
+                </div>
+                <div className="d-flex gap-5 my-3">
+                  <div>
+                    <span>Icon</span> {""}
+                    <span>Dhaka Bangladesh</span>
+                  </div>
+
+                  <div>
+                    <span>Icon</span> {""}
+                    <span>Salary: 100k-150k</span>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-primary">
+                  View Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="text-center mt-4">
+          <button type="button" class="btn btn-primary ">
+           See All Jobs
+          </button>
+        </div>
+      </div>
+      {/*  */}
     </div>
   );
 };
