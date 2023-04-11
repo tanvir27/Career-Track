@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "icon": "./images/google-1-1 1.png",
+    "icon": "../public/Logo/google-1-1 1-1.png",
     "title": "Technical Database Engineer",
     "company": "Google LLC",
     "location": "Dhaka, Bangladesh",
@@ -24,7 +24,7 @@
   },
   {
     "id": 2,
-    "icon": "./images/netflix-4 1.png",
+    "icon": "../public/Logo/google-1-1 1-1.png",
     "title": "Senior Product Designer",
     "company": "Netflix",
     "location": "Los Gatos, California",
@@ -47,7 +47,7 @@
   },
   {
     "id": 3,
-    "icon": "./images/tesla-9 1.png",
+    "icon": "../public/Logo/google-1-1 1-1.png",
     "title": "Software Engineer",
     "company": "Tesla",
     "location": "Palo Alto, California",
@@ -70,7 +70,7 @@
   },
   {
     "id": 4,
-    "icon": "./images/google-1-1 1.png",
+    "icon": "../public/Logo/google-1-1 1-1.png",
     "title": "Technical Database Engineer",
     "company": "Google LLC",
     "location": "Mountain View, California",
@@ -93,7 +93,7 @@
   },
   {
     "id": 5,
-    "icon": "./images/rsz_1facebook-logo.png",
+    "icon": "../public/Logo/google-1-1 1-1.png",
     "title": "Data Center Engineering",
     "company": "Meta",
     "location": "Menlo Park, California",
@@ -116,7 +116,7 @@
   },
   {
     "id": 6,
-    "icon": "./images/rsz_1apple-ar21-fotor-bg-remover-202304101219100.png",
+    "icon": "../public/Logo/google-1-1 1-1.png",
     "title": "Product Design Engineering",
     "company": "Apple",
     "location": "Cupertino, California",

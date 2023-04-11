@@ -5,6 +5,7 @@ import bannerImg from "../../assets/P3OLGJ1.png";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import CategoryList from "../CategoryList/CategoryList";
+import Job from "../Job/Job";
 const Home = () => {
   const [data, setData] = useState([]);
 
@@ -106,11 +107,13 @@ const Home = () => {
             </div>
           </div>
         </div>
+
         <div className="text-center mt-4">
           <button type="button" class="btn btn-primary ">
-           See All Jobs
+            See All Jobs
           </button>
         </div>
+       
       </div>
       {/*  */}
     </div>
