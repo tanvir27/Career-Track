@@ -1,25 +1,25 @@
 [
   {
     "_id": 1,
-    "icon": "./Icons/accounts 1.png",
+    "icon": "https://i.ibb.co/DWGJxmD/accounts-1.png",
     "title": "Accountant",
     "availability": "350 jobs available"
   },
   {
     "_id": 2,
-    "icon": "./Icons/business 1.png",
+    "icon": "https://i.ibb.co/JRK63t5/business-1.png",
     "title": "Creative Designer",
     "availability": "150 jobs available"
   },
   {
     "_id": 3,
-    "icon": "./Icons/chip 1.png",
+    "icon": "https://i.ibb.co/CzHkCZL/chip-1.png",
     "title": "Marketing  Specialist",
     "availability": "50 jobs available"
   },
   {
     "_id": 4,
-    "icon": "./Icons/social-media 1.png",
+    "icon": "https://i.ibb.co/C0B0WPv/social-media-1.png",
     "title": "Engineering Job",
     "availability": "200 jobs available"
   }

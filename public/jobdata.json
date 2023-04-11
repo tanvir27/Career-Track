@@ -3,83 +3,84 @@
     "id": 1,
     "logo": "https://i.ibb.co/RbTxSkS/google-1-1-1.png",
     "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
+    "icon_2": "https://i.ibb.co/R0BF9qp/Frame.png",
     "title": "Technical Database Engineer",
     "company": "Google LLC",
     "location": "Dhaka, Bangladesh",
     "salary": "100K - 150K",
     "workType": ["Remote", "Full Time"],
-    "jobDescription": "Design, implement, and maintain databases, ensuring high levels of data availability. Analyze, design, and implement databases optimizing database performance. Ensure all database systems meet business and performance requirements.",
+    "jobDescription": " Design, and implement databases optimizing database performance. Ensure all database systems meet business and performance requirements.",
     "jobResponsibility": [
-      "Develop database solutions to store and retrieve company information",
-      "Install and configure information systems to ensure functionality",
       "Analyze structural requirements for new software and applications",
-      "Migrate data from legacy systems to new solutions"
-    ],
-    "educationRequirements": "Bachelor's degree in Computer Science or a related field",
-    "experienceRequirements": "5+ years of experience in database engineering",
-    "contactInfo": {
-      "phone": "017-005-5555",
-      "email": "example123@email.com",
-      "address": "Dhanmondi Street, Dhaka, Bangladesh"
-    }
-  },
-  {
-    "id": 2,
-    "logo": "https://i.ibb.co/RbTxSkS/google-1-1-1.png",
-    "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
-    "title": "Senior Product Designer",
-    "company": "Netflix",
-    "location": "Los Gatos, California",
-    "salary": "120K - 180K",
-    "workType": ["Onsite", "Full Time"],
-    "jobDescription": "Lead the design of new product features and improvements across multiple platforms. Collaborate with cross-functional teams to ensure designs align with business goals and user needs. Iterate on design solutions based on user feedback and data analysis.",
-    "jobResponsibility": [
-      "Lead the design of new product features and improvements across multiple platforms",
-      "Collaborate with cross-functional teams to ensure designs align with business goals and user needs",
-      "Iterate on design solutions based on user feedback and data analysis",
-      "Create and maintain design guidelines and documentation"
-    ],
-    "educationRequirements": "Bachelor's degree in Design or a related field",
-    "experienceRequirements": "8+ years of experience in product design",
-    "contactInfo": {
-      "phone": "555-555-5555",
-      "email": "example@email.com",
-      "address": "123 Main Street, Los Gatos, California"
-    }
-  },
-  {
-    "id": 3,
-    "logo": "https://i.ibb.co/RbTxSkS/google-1-1-1.png",
-    "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
-    "title": "Software Engineer",
-    "company": "Tesla",
-    "location": "Palo Alto, California",
-    "salary": "150K - 200K",
-    "workType": ["Remote", "Full Time"],
-    "jobDescription": "Design and implement software solutions for various Tesla products and services. Collaborate with cross-functional teams to develop new features and improve existing systems. Write clean and maintainable code, and ensure code quality through testing and code reviews.",
-    "jobResponsibility": [
-      "Design and implement software solutions for various Tesla products and services",
-      "Collaborate with cross-functional teams to develop new features and improve existing systems",
-      "Write clean and maintainable code, and ensure code quality through testing and code reviews",
-      "Stay up-to-date with industry trends and technologies, and incorporate them into Tesla's software development process"
+      "Migrate data from legacy systems to new solutions",
+      "Develop database solutions to store and retrieve company information",
+      "Install and configure information systems to ensure functionality"
     ],
     "educationRequirements": "Bachelor's degree in Computer Science or a related field",
     "experienceRequirements": "5+ years of experience in software engineering",
     "contactInfo": {
-      "phone": "555-555-5555",
+      "phone": "017-005-5555",
+      "email": "example123@email.com",
+      "address": "14 Dhanmondi Street, Dhaka, Bangladesh"
+    }
+  },
+  {
+    "id": 2,
+    "logo": "https://i.ibb.co/B3wJb0h/netflix-4-1.png",
+    "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
+    "icon_2": "https://i.ibb.co/R0BF9qp/Frame.png",
+    "title": " Product Designer",
+    "company": "Netflix",
+    "location": "Los, Canada",
+    "salary": "150K - 180K",
+    "workType": ["Onsite", "Full Time"],
+    "jobDescription": " Collaborate with cross-functional teams to ensure designs align with business goals and user needs. Iterate on design solutions based on user feedback and data analysis. Lead the design of new product features and improvements across multiple platforms.",
+    "jobResponsibility": [
+      " Collaborate with cross-functional teams to ensure designs align with business goals and user needs.",
+      "Create and maintain design guidelines and documentation",
+      "Iterate on design solutions based on user feedback and data analysis"
+    ],
+    "educationRequirements": "Bachelor's degree in Design",
+    "experienceRequirements": "1+ years of experience in product design",
+    "contactInfo": {
+      "phone": "0174-555-8952",
       "email": "example@email.com",
-      "address": "123 Main Street, Palo Alto, California"
+      "address": "125 street Los, Canada"
+    }
+  },
+  {
+    "id": 3,
+    "logo": "https://i.ibb.co/k25ThKJ/tesla-9-1.png",
+    "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
+    "icon_2": "https://i.ibb.co/R0BF9qp/Frame.png",
+    "title": "Software Developer",
+    "company": "Tesla",
+    "location": "Alto, Uttara, Dhaka",
+    "salary": "180K - 200K",
+    "workType": ["Remote", "Full Time"],
+    "jobDescription": "The website should have a product catalog that displays all available products with their details, such as name, description, image, price, and availability.The website should allow customers to search products by keyword or category.The website should have a shopping cart where customers can add products and view their total order amount.",
+    "jobResponsibility": [
+      "Write clean and maintainable code, and ensure code quality through testing and code reviews",
+      "Stay up-to-date with industry trends and technologies, and incorporate them into Tesla's software development process"
+    ],
+    "educationRequirements": "Bachelor's degree in Computer Science or a related field",
+    "experienceRequirements": "3+ years of experience in software engineering",
+    "contactInfo": {
+      "phone": "000-555-2456",
+      "email": "example258@email.com",
+      "address": "56 Main Street, Uttara, Dhaka"
     }
   },
   {
     "id": 4,
-    "logo": "https://i.ibb.co/RbTxSkS/google-1-1-1.png",
+    "logo": "https://i.ibb.co/NtMZGhr/Group-10021.png",
     "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
+    "icon_2": "https://i.ibb.co/R0BF9qp/Frame.png",
     "title": "Technical Database Engineer",
     "company": "Google LLC",
-    "location": "Mountain View, California",
+    "location": "Mountain View, Istanbul",
     "salary": "120K - 160K",
-    "workType": ["Remote", "Full Time"],
+    "workType": ["Onsite", "Full Time"],
     "jobDescription": "Design, build, and maintain databases for Google's internal and external applications. Optimize database performance and scalability, and ensure data security and integrity. Collaborate with cross-functional teams to develop new database solutions and improve existing ones.",
     "jobResponsibility": [
       "Design, build, and maintain databases for Google's internal and external applications",
@@ -87,60 +88,60 @@
       "Collaborate with cross-functional teams to develop new database solutions and improve existing ones",
       "Stay up-to-date with industry trends and technologies, and incorporate them into Google's database development process"
     ],
-    "educationRequirements": "Bachelor's degree in Computer Science or a related field",
-    "experienceRequirements": "5+ years of experience in database engineering",
+    "educationRequirements": "Bachelor's degree in Computer Science ",
+    "experienceRequirements": "2+ years of experience in database engineering",
     "contactInfo": {
-      "phone": "013-555-5555",
+      "phone": "013-254-5555",
       "email": "example147@email.com",
-      "address": "Mountain View, California"
+      "address": "Mountain View, Istanbul"
     }
   },
   {
     "id": 5,
     "logo": "https://i.ibb.co/RbTxSkS/google-1-1-1.png",
     "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
-    "title": "Data Center Engineering",
+    "icon_2": "https://i.ibb.co/R0BF9qp/Frame.png",
+    "title": "Database Engineer",
     "company": "Meta",
-    "location": "Menlo Park, California",
-    "salary": "130K - 170K",
+    "location": "Los Angelos, USA",
+    "salary": "50K - 70K",
     "workType": ["Onsite", "Full Time"],
     "jobDescription": "Design, build, and maintain Meta's data center infrastructure. Develop and implement solutions to improve data center efficiency, scalability, and reliability. Collaborate with cross-functional teams to support new product launches and improve existing ones.",
     "jobResponsibility": [
-      "Design, build, and maintain Meta's data center infrastructure",
-      "Develop and implement solutions to improve data center efficiency, scalability, and reliability",
       "Collaborate with cross-functional teams to support new product launches and improve existing ones",
-      "Stay up-to-date with industry trends and technologies, and incorporate them into Meta's data center engineering process"
+      "Stay up-to-date with industry trends and technologies, and incorporate them into Meta's data center engineering process",
+      "Design, build, and maintain Meta's data center infrastructure",
+      "Develop and implement solutions to improve data center efficiency, scalability, and reliability"
     ],
-    "educationRequirements": "Bachelor's degree in Computer Science, Electrical Engineering, or a related field",
-    "experienceRequirements": "5+ years of experience in data center engineering",
+    "educationRequirements": "Bachelor's degree in Electrical Engineering",
+    "experienceRequirements": "7+ years of experience in data center engineering",
     "contactInfo": {
       "phone": "017-000-0585-00",
       "email": "email123@email.com",
-      "address": " Menlo Park, California"
+      "address": "  Park, Los Angelos, USA"
     }
   },
   {
     "id": 6,
-    "logo": "https://i.ibb.co/RbTxSkS/google-1-1-1.png.png",
+    "logo": "https://i.ibb.co/B3wJb0h/netflix-4-1.png",
     "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
-    "title": "Product Design Engineering",
+    "icon_2": "https://i.ibb.co/R0BF9qp/Frame.png",
+    "title": "Product Engineering",
     "company": "Apple",
-    "location": "Cupertino, California",
-    "salary": "140K - 180K",
+    "location": "Cupertino, Turkey",
+    "salary": "160K - 280K",
     "workType": ["Onsite", "Full Time"],
-    "jobDescription": "Design and develop new products and product features for Apple. Collaborate with cross-functional teams to developnew concepts and ideas, and work closely with engineers and other designers to bring those concepts to life. Use your design skills and experience to create user-friendly, visually appealing products that meet the needs and expectations of Apple's customers.",
+    "jobDescription": " Use your design skills and experience to create user-friendly, visually appealing products that meet the needs and expectations of Apple's customers.Design and develop new products and product features for Apple. Collaborate with cross-functional teams to developnew concepts and ideas, and work closely with engineers and other designers to bring those concepts to life.",
     "jobResponsibility": [
-      "Design and develop new products and product features for Apple",
-      "Collaborate with cross-functional teams to develop new concepts and ideas",
       "Work closely with engineers and other designers to bring concepts to life",
       "Create user-friendly, visually appealing products that meet the needs and expectations of Apple's customers"
     ],
-    "educationRequirements": "Bachelor's degree in Industrial Design or a related field",
-    "experienceRequirements": "5+ years of experience in product design engineering",
+    "educationRequirements": "Bachelor's degree in Industrial Design ",
+    "experienceRequirements": "6+ years of experience in product design engineering",
     "contactInfo": {
       "phone": "017-000-0585-00",
-      "email": "email123@email.com",
-      "address": " Menlo Park, California"
+      "email": "emailexam123@email.com",
+      "address": " Cupertino, Turkey"
     }
   }
 ]

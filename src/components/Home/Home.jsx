@@ -1,20 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import bannerImg from "../../assets/P3OLGJ1.png";
+import bannerImg from "../../assets/banner.png";
 import "./Home.css";
 import { Link, useLoaderData } from "react-router-dom";
 import CategoryList from "../CategoryList/CategoryList";
-import Job from "../Job/Job";
+
 const Home = () => {
-   
-  
   const [data, setData] = useState([]);
   const [jobData, setJobData] = useState([]);
 
-  
-
-
-// for category data
+  // for category data
   useEffect(() => {
     fetch("categoryData.json")
       .then((res) => res.json())
@@ -22,15 +17,13 @@ const Home = () => {
   }, []);
 
   // for job data
-   useEffect(() => {
-     fetch('jobData.json')
-       .then((res) => res.json())
-       .then((data) => setJobData(data));
-   }, []);
-  
+  useEffect(() => {
+    fetch("jobData.json")
+      .then((res) => res.json())
+      .then((data) => setJobData(data));
+  }, []);
 
   return (
-   
     <div>
       <div className="banner-section common-styles mx-auto mb-5">
         <Container>
@@ -113,7 +106,7 @@ const Home = () => {
 
                       <div>
                         <span>
-                          <img src={jData.icon} alt="" />
+                          <img src={jData.icon_2} alt="" />
                         </span>{" "}
                         {""}
                         <span>Salary: {jData.salary}</span>

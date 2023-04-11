@@ -37,7 +37,7 @@ const Job = () => {
 
                     <div>
                       <span>
-                        <img src={job.icon} alt="" />
+                        <img src={job.icon_2} alt="" />
                       </span>{" "}
                       {""}
                       <span>Salary: {job.salary}</span>
