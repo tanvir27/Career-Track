@@ -11,12 +11,12 @@ const Job = () => {
         {jobData.map((job) => (
           <div className="">
             <div class="col rounded p-3">
-              <div class="card">
+              <div class="card h-100">
                 <div className="p-4">
                   <div>
                     <img className="img-fluid" src={job.logo} alt="" />
                   </div>
-                  <h3>Technical Database Engineer</h3>
+                  <h3>{job.title}</h3>
                   <p className="">{job.title}</p>
                   <div className="d-flex gap-3">
                     <button type="button" class="btn btn-outline-primary">

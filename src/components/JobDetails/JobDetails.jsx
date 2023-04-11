@@ -2,28 +2,39 @@ import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 import { useLoaderData, useParams } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDollarSign } from "@fortawesome/free-solid-svg-icons";
+import {
+  faDollarSign,
+  faCalendar,
+  faPhone,
+  faEnvelopeSquare,
+  faLocationDot,
+} from "@fortawesome/free-solid-svg-icons";
 
+import { addToDb } from "../../utilities/fakeDb";
 
 const JobDetails = () => {
-
   const [data, setData] = useState(null);
 
   const dataPass = useLoaderData();
   console.log(dataPass);
 
   const { jobId } = useParams();
-  console.log(jobId);
+  // console.log(jobId);
 
   useEffect(() => {
     if (dataPass) {
       const storedData = dataPass.find((data) => data.id === parseInt(jobId));
       setData(storedData);
     }
-  },[dataPass,jobId])
+  }, [dataPass, jobId]);
 
-  if (!data)  {
-    return <p>Data Not Found</p>
+  if (!data) {
+    return <p>Data Not Found</p>;
+  }
+// for apply now button
+  const handleApplyButton = (id) => {
+    console.log('id is', id);
+    addToDb(id)
   }
 
   return (
@@ -71,7 +82,7 @@ const JobDetails = () => {
                     <span>
                       <FontAwesomeIcon
                         className="text-info fw-bold"
-                        icon={faDollarSign}
+                        icon={faCalendar}
                       />
                     </span>{" "}
                     <span className="fw-bold">Job Title: </span>{" "}
@@ -86,7 +97,7 @@ const JobDetails = () => {
                   <span>
                     <FontAwesomeIcon
                       className="text-info fw-bold"
-                      icon={faDollarSign}
+                      icon={faPhone}
                     />
                   </span>{" "}
                   <span className="fw-bold">Phone: </span>{" "}
@@ -96,7 +107,7 @@ const JobDetails = () => {
                   <span>
                     <FontAwesomeIcon
                       className="text-info fw-bold"
-                      icon={faDollarSign}
+                      icon={faEnvelopeSquare}
                     />
                   </span>{" "}
                   <span className="fw-bold">Email: </span>{" "}
@@ -106,7 +117,7 @@ const JobDetails = () => {
                   <span>
                     <FontAwesomeIcon
                       className="text-info fw-bold"
-                      icon={faDollarSign}
+                      icon={faLocationDot}
                     />
                   </span>{" "}
                   <span className="fw-bold">Address: </span>{" "}
@@ -114,7 +125,11 @@ const JobDetails = () => {
                 </div>
               </div>
               <div className="mt-4">
-                <button class="btn btn-primary w-100" type="button">
+                <button
+                  onClick={()=> handleApplyButton(jobId)}
+                  class="btn btn-primary w-100"
+                  type="button"
+                >
                   Apply Now
                 </button>
               </div>
