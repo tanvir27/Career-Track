@@ -1,21 +1,36 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-
 import bannerImg from "../../assets/P3OLGJ1.png";
 import "./Home.css";
-import { Link } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import CategoryList from "../CategoryList/CategoryList";
 import Job from "../Job/Job";
 const Home = () => {
+   
+  
   const [data, setData] = useState([]);
+  const [jobData, setJobData] = useState([]);
 
+  
+
+
+// for category data
   useEffect(() => {
     fetch("categoryData.json")
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
 
+  // for job data
+   useEffect(() => {
+     fetch('jobData.json')
+       .then((res) => res.json())
+       .then((data) => setJobData(data));
+   }, []);
+  
+
   return (
+   
     <div>
       <div className="banner-section common-styles mx-auto mb-5">
         <Container>
@@ -69,48 +84,56 @@ const Home = () => {
           </p>
         </div>
         <div className="row row-cols-1 row-cols-md-2 g-2 mt-2">
-          <div class="col rounded p-3">
-            <div class="card">
-              <div className="p-4">
-                <div>
-                  <img
-                    className="img-fluid"
-                    src="../../../public/All Images/google-1-1 1.png"
-                    alt=""
-                  />
-                </div>
-                <h3>Technical Database Engineer</h3>
-                <p className="">Google LLC</p>
-                <div className="d-flex gap-3">
-                  <button type="button" class="btn btn-outline-primary">
-                    Remote
-                  </button>
-                  <button type="button" class="btn btn-outline-secondary">
-                    Onsite
-                  </button>
-                </div>
-                <div className="d-flex gap-5 my-3">
-                  <div>
-                    <span>Icon</span> {""}
-                    <span>Dhaka Bangladesh</span>
-                  </div>
+          {jobData.slice(0, 4).map((jData) => (
+            <div className="">
+              <div class="col rounded p-3">
+                <div class="card">
+                  <div className="p-4">
+                    <div>
+                      <img className="img-fluid" src={jData.logo} alt="" />
+                    </div>
+                    <h3>Technical Database Engineer</h3>
+                    <p className="">{jData.title}</p>
+                    <div className="d-flex gap-3">
+                      <button type="button" class="btn btn-outline-primary">
+                        {jData.workType[0]}
+                      </button>
+                      <button type="button" class="btn btn-outline-secondary">
+                        {jData.workType[1]}
+                      </button>
+                    </div>
+                    <div className="d-flex gap-5 my-3">
+                      <div>
+                        <span>
+                          <img src={jData.icon} alt="" />
+                        </span>{" "}
+                        {""}
+                        <span>{jData.location}</span>
+                      </div>
 
-                  <div>
-                    <span>Icon</span> {""}
-                    <span>Salary: 100k-150k</span>
+                      <div>
+                        <span>
+                          <img src={jData.icon} alt="" />
+                        </span>{" "}
+                        {""}
+                        <span>Salary: {jData.salary}</span>
+                      </div>
+                    </div>
+                    <Link to={`/details/${jData.id}`}>
+                      {" "}
+                      <button type="button" class="btn btn-primary">
+                        View Details
+                      </button>
+                    </Link>
                   </div>
                 </div>
-                <button type="button" class="btn btn-primary">
-                  View Details
-                </button>
               </div>
             </div>
-          </div>
+          ))}
         </div>
 
         <div className="text-center mt-4">
-          <Link to={'/jobs'}>
-         
+          <Link to={"/jobs"}>
             <button type="button" class="btn btn-primary ">
               See All Jobs
             </button>
