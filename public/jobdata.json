@@ -1,7 +1,8 @@
 [
   {
     "id": 1,
-    "icon": "../public/Logo/google-1-1 1-1.png",
+    "logo": "https://i.ibb.co/RbTxSkS/google-1-1-1.png",
+    "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
     "title": "Technical Database Engineer",
     "company": "Google LLC",
     "location": "Dhaka, Bangladesh",
@@ -24,7 +25,8 @@
   },
   {
     "id": 2,
-    "icon": "../public/Logo/google-1-1 1-1.png",
+    "logo": "https://i.ibb.co/RbTxSkS/google-1-1-1.png",
+    "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
     "title": "Senior Product Designer",
     "company": "Netflix",
     "location": "Los Gatos, California",
@@ -47,7 +49,8 @@
   },
   {
     "id": 3,
-    "icon": "../public/Logo/google-1-1 1-1.png",
+    "logo": "https://i.ibb.co/RbTxSkS/google-1-1-1.png",
+    "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
     "title": "Software Engineer",
     "company": "Tesla",
     "location": "Palo Alto, California",
@@ -70,7 +73,8 @@
   },
   {
     "id": 4,
-    "icon": "../public/Logo/google-1-1 1-1.png",
+    "logo": "https://i.ibb.co/RbTxSkS/google-1-1-1.png",
+    "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
     "title": "Technical Database Engineer",
     "company": "Google LLC",
     "location": "Mountain View, California",
@@ -93,7 +97,8 @@
   },
   {
     "id": 5,
-    "icon": "../public/Logo/google-1-1 1-1.png",
+    "logo": "https://i.ibb.co/RbTxSkS/google-1-1-1.png",
+    "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
     "title": "Data Center Engineering",
     "company": "Meta",
     "location": "Menlo Park, California",
@@ -116,7 +121,8 @@
   },
   {
     "id": 6,
-    "icon": "../public/Logo/google-1-1 1-1.png",
+    "logo": "https://i.ibb.co/RbTxSkS/google-1-1-1.png.png",
+    "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
     "title": "Product Design Engineering",
     "company": "Apple",
     "location": "Cupertino, California",

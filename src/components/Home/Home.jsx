@@ -109,11 +109,13 @@ const Home = () => {
         </div>
 
         <div className="text-center mt-4">
-          <button type="button" class="btn btn-primary ">
-            See All Jobs
-          </button>
+          <Link to={'/jobs'}>
+         
+            <button type="button" class="btn btn-primary ">
+              See All Jobs
+            </button>
+          </Link>
         </div>
-       
       </div>
       {/*  */}
     </div>
