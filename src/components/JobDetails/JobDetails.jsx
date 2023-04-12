@@ -16,7 +16,7 @@ const JobDetails = () => {
   const [data, setData] = useState(null);
 
   const dataPass = useLoaderData();
-  console.log(dataPass);
+  // console.log(dataPass);
 
   const { jobId } = useParams();
   // console.log(jobId);
@@ -33,7 +33,7 @@ const JobDetails = () => {
   }
 // for apply now button
   const handleApplyButton = (id) => {
-    console.log('id is', id);
+    // console.log('id is', id);
     addToDb(id)
   }
 
@@ -126,7 +126,7 @@ const JobDetails = () => {
               </div>
               <div className="mt-4">
                 <button
-                  onClick={()=> handleApplyButton(jobId)}
+                  onClick={()=> handleApplyButton(data.id)}
                   class="btn btn-primary w-100"
                   type="button"
                 >

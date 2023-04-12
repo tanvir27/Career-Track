@@ -1,16 +1,28 @@
 const addToDb = (id) => {
-    // localStorage.setItem('apply-job', id);
+  let appliedJobsAdd = {};
+  const storedData = localStorage.getItem("appliedJobsAdd");
+  if (storedData) {
+    appliedJobsAdd = JSON.parse(storedData);
+  }
 
-     let existingData = localStorage.getItem("apply-job");
-     let newData = id;
+  const quantity = appliedJobsAdd[id];
+  if (quantity) {
+    const newQuantity = quantity + 1;
+    appliedJobsAdd[id] = newQuantity;
+  } else {
+    appliedJobsAdd[id] = 1;
+  }
 
-     if (existingData) {
-       existingData = JSON.parse(existingData);
-       existingData.push(newData);
-       localStorage.setItem("apply-job", JSON.stringify(existingData));
-     } else {
-       localStorage.setItem("apply-job", JSON.stringify([newData]));
-     }
-  
-}
-export{addToDb}
+  localStorage.setItem("appliedJobsAdd", JSON.stringify(appliedJobsAdd));
+};
+
+const getAppliedJobs = () => {
+  const storedData = localStorage.getItem("appliedJobsAdd");
+  return storedData ? JSON.parse(storedData) : {};
+};
+
+// const getStoredCart = () => {
+//   const storedCart = localStorage.getItem("appliedJobsAdd");
+//   return storedCart ? JSON.parse(storedCart) : {};
+// };
+export { addToDb, getAppliedJobs };
