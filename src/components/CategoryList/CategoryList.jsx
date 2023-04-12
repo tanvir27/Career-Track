@@ -5,7 +5,7 @@ import './CategoryList.css'
 const CategoryList = ({ dataList }) => {
   return (
     <div>
-      <div className="category-list my-4">
+      <div className="category-list  my-4">
         <div className="col  rounded-3 common-styles p-4">
           <img className=" rounded-1 " src={dataList.icon} alt="" />
           <div>

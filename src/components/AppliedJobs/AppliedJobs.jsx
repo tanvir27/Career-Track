@@ -25,12 +25,12 @@ const AppliedJobs = () => {
   return (
     <div>
       <div className=" py-5 common-styles">
-        <h1 className="text-center">Applied Jobs</h1>
+        <h1 className="text-center fw-bold text-success">Applied Jobs</h1>
       </div>
       <div className="container d-flex justify-content-end my-3">
         <Dropdown>
           <Dropdown.Toggle variant="outline-primary" id="workTypeFilter">
-            {workTypeFilter ? workTypeFilter : "Filter by work type"}
+            {workTypeFilter ? workTypeFilter : " Work Type"}
           </Dropdown.Toggle>
           <Dropdown.Menu>
             <Dropdown.Item
@@ -60,7 +60,7 @@ const AppliedJobs = () => {
               </div>
               <div className="w-100">
                 <h3>{product.title}</h3>
-                <p>{product.company}</p>
+                <h6 className="">{product.company}</h6>
                 <div className="d-flex justify-content-between">
                   <div className="d-flex gap-3">
                     <button type="button" className="btn btn-outline-primary">
@@ -73,7 +73,7 @@ const AppliedJobs = () => {
                   <div>
                     <Link to={`/details/${product.id}`}>
                       {" "}
-                      <button type="button" class="btn btn-danger">
+                      <button type="button" class="btn btn-primary">
                         View Details
                       </button>
                     </Link>
@@ -85,7 +85,9 @@ const AppliedJobs = () => {
                       <img src={product.icon} alt="" />
                     </span>{" "}
                     {""}
-                    <span>{product.location}</span>
+                    <span className="fw-bold text-success">
+                      {product.location}
+                    </span>
                   </div>
 
                   <div>
@@ -93,7 +95,9 @@ const AppliedJobs = () => {
                       <img src={product.icon_2} alt="" />
                     </span>{" "}
                     {""}
-                    <span>Salary: {product.salary}</span>
+                    <span className="fw-bold text-success">
+                      Salary: {product.salary}
+                    </span>
                   </div>
                 </div>
               </div>

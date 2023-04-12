@@ -54,9 +54,9 @@ const Home = () => {
         </Container>
       </div>
 
-      <div className="container my-5 text-center">
-        <h1 className="fw-bold">Job Category List</h1>
-        <p className="text-success">
+      <div className="container text-center my-5">
+        <h1 className="fw-bold r">Job Category List</h1>
+        <p className="text-success  ">
           Explore thousands of job opportunities with all the information you
           need. Its your future
         </p>
@@ -82,11 +82,11 @@ const Home = () => {
               <div class="col rounded p-3">
                 <div class="card h-100">
                   <div className="p-4">
-                    <div>
+                    <div className="pb-3">
                       <img className="img-fluid" src={jData.logo} alt="" />
                     </div>
                     <h3>{jData.title}</h3>
-                    <p className="">{jData.title}</p>
+                    <h6 className="">{jData.company}</h6>
                     <div className="d-flex gap-3">
                       <button type="button" class="btn btn-outline-primary">
                         {jData.workType[0]}
@@ -109,7 +109,7 @@ const Home = () => {
                           <img src={jData.icon_2} alt="" />
                         </span>{" "}
                         {""}
-                        <span>Salary: {jData.salary}</span>
+                        <span className="">Salary: {jData.salary}</span>
                       </div>
                     </div>
                     <Link to={`/details/${jData.id}`}>

@@ -23,3 +23,5 @@
 ### 11. filtering options implemented
 
 ### 12. implement local storage and show data in applied job sections
+
+### 13. implement filtering option for onsite and remote button
