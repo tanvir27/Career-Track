@@ -1,3 +1,5 @@
+### Live Link: https://work-avenue.netlify.app/
+
 ### 1. initial commit
 
 ### 2. Error Page Design implemented
@@ -17,3 +19,7 @@
 ### 9. pic chart fill color create for every assignment marks
 
 ### 10. blog page implemented by answering questions
+
+### 11. filtering options implemented
+
+### 12. implement local storage and show data in applied job sections
